@@ -1,4 +1,6 @@
 
+
 #main-img {
   background-color: yellowgreen;
+  flex-grow: initial;
 }
