@@ -47,10 +47,10 @@ const createTime = () => {
 
 }
 
-module.exports = {
-  dateFormat,
-  createTime
-}
+// export default {
+//   dateFormat,
+//   createTime
+// }
 
 
 

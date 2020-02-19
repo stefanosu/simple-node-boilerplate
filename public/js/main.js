@@ -80,6 +80,7 @@ const makeReservation = () => {
   // debugger
   let name = `${document.getElementById('first').value} ${document.getElementById('last').value}`
   let time = document.getElementById('date').value;
+  
   checkIfReserved 
   fetch('http://localhost:3000/reservations/create',{
     method: "POST",
