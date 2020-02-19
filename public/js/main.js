@@ -2,7 +2,6 @@ const app = document.getElementById('app')
 let obj = {};
 
 
-
 let settings = {
   selector: "#myCalendar",
   date: new Date(),
@@ -71,7 +70,7 @@ const fetchTimes = () => {
   })
     .then(resp => {
       let data = resp.data;
-    })
+    }) 
 }
 
 
