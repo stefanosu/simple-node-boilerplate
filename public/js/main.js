@@ -77,7 +77,7 @@ const fetchTimes = () => {
 
 const makeReservation = () => {
   // debugger
-  let name = `${document.getElementById('first').value} ${document.getElementById('last').value}`
+  let name = document.getElementById('first').value
   let time = document.getElementById('date').value;
   
   checkIfReserved 
